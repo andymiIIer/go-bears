@@ -116,7 +116,7 @@ for i,ta in enumerate(team_anchors):
     add_team(i,ta)
 
 # Save the still fairly raw data to a CSV.
-df.to_csv('CFB' + year + '_raw.csv')
+df.to_csv('data.csv')
 #
 #
 #
